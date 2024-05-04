@@ -1,0 +1,171 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    /* background-color: yellow; */
+    /* border: 5px solid red; */
+    margin: 0;
+}
+header{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+#page-logo a{
+    /* background-color: purple; */
+    padding: 10px;
+    color: rgb(245,243,160);
+    font-size: 3.0rem;
+    /* 1.0rem=16px */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 3px 3px 2px rgb(0,0,0);
+    font-size: 50px;
+
+}
+nav{
+    /* background-color: red; */
+    border-color: #fa923f;
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /* background-color: rbg(127,127,169); */
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-left: 20px;
+    display: flex;
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(255,251,0);
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgba(233,240,0, 0.8);
+    border-radius: 6px;
+}
+nav ul a:hover{
+    color:rgb(77,77,77);
+    background-color: rgb(255,251,0);
+}
+
+
+
+/* CSS of HERO */
+
+#hero{
+    height: 900px;
+    background-image: url(/travel/assets/images/img/ocean.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hero-content{
+    width: 700px;
+    background-color: rgba(51,47,47, 0.8);
+    box-shadow: 2px 4px 8px rgb(68,67,67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    position: relative; /* nổi lên trên */
+    top: 200px; /* trên cách 200px */
+    margin: 0 auto; /* căn giữa*/
+}
+.hero-content h1{
+    color: #fefefe;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+.hero-content p{
+    color: #fefefe;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+.hero-content a{
+    text-decoration: none;
+    background-color: rgb(255,238,0);
+    padding: 12px 24px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68,67,67);
+}
+.hero-content a:hover {
+    background-color: rgb(255, 200, 0);
+}
+#highlights{
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(227,255,253), rgb(202,243,240));
+}
+#highlights h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59,65,64);
+    margin: 24px 0;
+}
+#destinations{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.destination{
+    margin: 0 20px;
+    text-transform: uppercase;
+    width: 25%;
+}
+.destination img{
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68,67,67);
+    border-radius: 10px;
+    object-fit: cover;
+    text-decoration: none;
+}
+.destination p{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124,123,123);
+    margin: 20px 0;
+}
+.destination strong{
+    color: #33b08c;
+}
+/* footer */
+footer{
+    background: black;
+    padding: 40px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    width: 80px;
+    height: 80px;
+    margin: 0 50px;
+}
+footer img{
+    width: 100%;
+    height: 100%;
+}
